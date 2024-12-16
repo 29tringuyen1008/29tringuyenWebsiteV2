@@ -1,0 +1,13 @@
+@media screen {
+    .BorderTable {
+        border: 1px solid black;
+    }
+
+        .BorderTable tr {
+            border: 1px solid black;
+        }
+
+            .BorderTable tr td {
+                border: 1px solid black;
+            }
+}

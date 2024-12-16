@@ -1,0 +1,57 @@
+/* All browsers */
+@media screen {
+    .Article {
+        overflow: hidden;
+        height: auto;
+    }
+
+        .Article .Menu_Bar {
+            width: 20%;
+        }
+
+        .Article .Main {
+            width: 77.5%;
+            display: grid;
+            float: right;
+        }
+
+    .Menu_Bar {
+        background: rgb(8, 99, 173);
+        position: absolute;
+        border: 0.5vw solid black;
+        font-family: 'Times New Roman';
+        text-align: left;
+        overflow-wrap: break-word;
+    }
+
+    .Main {
+    }
+
+    .Frame {
+        background-color: white;
+        border-right: 0.5vw solid black;
+        border-bottom: 0.5vw solid black;
+        border-left: 0.5vw solid black;
+        border-top: 0.5vw solid black;
+        display: block;
+        height: auto;
+    }
+
+    .Cut {
+        position: relative;
+        clear: both;
+    }
+
+    center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+    center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
